@@ -1,8 +1,8 @@
 class Sourcefed < Formula
   desc "Live Jira, GitHub, and Slack monitoring for agent hosts: CLI, daemon, MCP server, and host plugins"
   homepage "https://github.com/StevenJPx2/sourcefed"
-  url "https://registry.npmjs.org/@fdcn/sourcefed/-/sourcefed-0.2.0.tgz"
-  sha256 "08d31503cfb13fc719b4bd9af49f8369b9cfeaa5b26b4b811e4cea56f33bf66d"
+  url "https://registry.npmjs.org/@fdcn/sourcefed/-/sourcefed-0.2.1.tgz"
+  sha256 "b31e0b1ede9488dab47043e58f26bba3d79961325b572d8901c5dacef63b5a9e"
   license "MIT"
 
   depends_on "node"
