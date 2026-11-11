@@ -7,23 +7,23 @@ class ChauffeurNext < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/StevenJPx2/chauffeur/releases/download/v1.0.0-rc.3/chauffeur-1.0.0-rc.3-darwin-arm64.tar.gz"
-      sha256 "0a8e8ffcb176a5bafbf5237a754d911ed1dda18087d2ce3212830ec6d0babca3"
+      url "https://github.com/StevenJPx2/chauffeur/releases/download/v1.0.0-rc.4/chauffeur-1.0.0-rc.4-darwin-arm64.tar.gz"
+      sha256 "2df09f84a881dbc822629214d9528c29607940c046f87978ded218f22eed4ff5"
     end
     on_intel do
-      url "https://github.com/StevenJPx2/chauffeur/releases/download/v1.0.0-rc.3/chauffeur-1.0.0-rc.3-darwin-x64.tar.gz"
-      sha256 "fc7fbc1abbaad8d0f71e2b346462f2510fdf0489c72f42005cac38e9d4d838ca"
+      url "https://github.com/StevenJPx2/chauffeur/releases/download/v1.0.0-rc.4/chauffeur-1.0.0-rc.4-darwin-x64.tar.gz"
+      sha256 "eae2d20cfcc9d7b588d8f6f5a837787f31148ad5469a5054d1a2ffbb0d77887f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/StevenJPx2/chauffeur/releases/download/v1.0.0-rc.3/chauffeur-1.0.0-rc.3-linux-arm64.tar.gz"
-      sha256 "7b72ad61aa0bb1d8afdbb84cd7995feae6830eee501b73721ebddc2f82a735b5"
+      url "https://github.com/StevenJPx2/chauffeur/releases/download/v1.0.0-rc.4/chauffeur-1.0.0-rc.4-linux-arm64.tar.gz"
+      sha256 "3e864cfd76d4719b12e5c0af83581d3d1f99dfe7b8e38e233497c9eada83ef03"
     end
     on_intel do
-      url "https://github.com/StevenJPx2/chauffeur/releases/download/v1.0.0-rc.3/chauffeur-1.0.0-rc.3-linux-x64.tar.gz"
-      sha256 "7ca1b4290035ab8f6e640fee56f4fc644247147d08a820dc2b8b038fe6091741"
+      url "https://github.com/StevenJPx2/chauffeur/releases/download/v1.0.0-rc.4/chauffeur-1.0.0-rc.4-linux-x64.tar.gz"
+      sha256 "7e73829a1c7d11ea6feb92a78a184d9ae238d559d061af14b3b0d48fd4fd9f89"
     end
   end
 
