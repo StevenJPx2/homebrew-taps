@@ -7,19 +7,19 @@ class Atelier < Formula
   on_macos do
     depends_on arch: :arm64
     on_arm do
-      url "https://github.com/StevenJPx2/atelier/releases/download/v0.1.0-rc.2/atelier-0.1.0-rc.2-darwin-arm64.tar.gz"
-      sha256 "55214bb7d312c15d2e5dfe9c7960ad4b76e961c5e4ea1ae83fea2ece6316e9a9"
+      url "https://github.com/StevenJPx2/atelier/releases/download/v0.1.0-rc.3/atelier-0.1.0-rc.3-darwin-arm64.tar.gz"
+      sha256 "dee4493aa0852bb747543a2655f3b5a93e120934ac242d94d3cd5a48ffc206cd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/StevenJPx2/atelier/releases/download/v0.1.0-rc.2/atelier-0.1.0-rc.2-linux-arm64.tar.gz"
-      sha256 "d3fb9e9f07200cf7bf140b85f08addc99cd57b9f3457f2bbf697833b5d0fbe19"
+      url "https://github.com/StevenJPx2/atelier/releases/download/v0.1.0-rc.3/atelier-0.1.0-rc.3-linux-arm64.tar.gz"
+      sha256 "5823bcd984ec46175747cb41f508b2d05e9da9fc2eb4a10898687fc971e18fd4"
     end
     on_intel do
-      url "https://github.com/StevenJPx2/atelier/releases/download/v0.1.0-rc.2/atelier-0.1.0-rc.2-linux-x64.tar.gz"
-      sha256 "82fb79baf863493970a2d59af2930ec475b6d5067ac1161bf457eebf62cec2ed"
+      url "https://github.com/StevenJPx2/atelier/releases/download/v0.1.0-rc.3/atelier-0.1.0-rc.3-linux-x64.tar.gz"
+      sha256 "1550d867af576245652215867a954ec7175dda3eecee00c37471d77219b7e1b1"
     end
   end
 
@@ -29,7 +29,13 @@ class Atelier < Formula
   end
 
   def caveats
-    "The issue loop and daemon are planned for slice 1; do not start the service yet."
+    <<~EOS
+      In a project's checkout, make its labels and watch it:
+        atelier init
+        atelier add owner/name
+      then keep the daemon running:
+        brew services start atelier
+    EOS
   end
 
   service do
