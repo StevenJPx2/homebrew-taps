@@ -7,19 +7,19 @@ class Atelier < Formula
   on_macos do
     depends_on arch: :arm64
     on_arm do
-      url "https://github.com/StevenJPx2/atelier/releases/download/v0.1.0-rc.7/atelier-0.1.0-rc.7-darwin-arm64.tar.gz"
-      sha256 "54b20b9186bb28ecc78466a6afd1ca1cff897ab86d2617ec7c17d9a2426741d4"
+      url "https://github.com/StevenJPx2/atelier/releases/download/v0.1.0-rc.8/atelier-0.1.0-rc.8-darwin-arm64.tar.gz"
+      sha256 "dc5d9b68d12363767e182abee19be460f710b9282492a4df34c5dd69a8178f3e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/StevenJPx2/atelier/releases/download/v0.1.0-rc.7/atelier-0.1.0-rc.7-linux-arm64.tar.gz"
-      sha256 "83390e353976e9f35b869a0c21f55e86acd0f939cc0ff1a3bc538c8a72ac64ac"
+      url "https://github.com/StevenJPx2/atelier/releases/download/v0.1.0-rc.8/atelier-0.1.0-rc.8-linux-arm64.tar.gz"
+      sha256 "8b461b57e9b10b0c2e089580424398679316f033948a93cee19a55dfa85bd954"
     end
     on_intel do
-      url "https://github.com/StevenJPx2/atelier/releases/download/v0.1.0-rc.7/atelier-0.1.0-rc.7-linux-x64.tar.gz"
-      sha256 "539aeea26f980d309ff87d71c7bdd7054105e97b25d432a2496820867bc43573"
+      url "https://github.com/StevenJPx2/atelier/releases/download/v0.1.0-rc.8/atelier-0.1.0-rc.8-linux-x64.tar.gz"
+      sha256 "f85cca9a7285e0b42e19f4e0eeefac82659a9e75732dace957c774ea64ad1897"
     end
   end
 
