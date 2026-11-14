@@ -5,8 +5,8 @@
 # GitHub Release. The MLX Kokoro model is NOT bundled; it downloads from
 # HuggingFace on first `abs generate`.
 #
-# Publish to a tap (StevenJPx2/homebrew-audiobook-studio):
-#   brew install StevenJPx2/audiobook-studio/audiobook-studio
+# Published in the tap StevenJPx2/homebrew-taps:
+#   brew install stevenjpx2/taps/audiobook-studio
 #
 # Apple Silicon only (MLX requirement).
 class AudiobookStudio < Formula
