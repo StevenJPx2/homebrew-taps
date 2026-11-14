@@ -5,7 +5,7 @@
 # only. Unsigned — Casks install via curl and are not quarantined, so it
 # launches without a Gatekeeper prompt.
 #
-#   brew install --cask StevenJPx2/audiobook-studio/audiobook-studio-app
+#   brew install --cask stevenjpx2/taps/audiobook-studio-app
 #
 # url + sha256 are bumped automatically by the app repo's release workflow.
 cask "audiobook-studio-app" do
